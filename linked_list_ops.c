@@ -108,7 +108,7 @@ void rem_dup(struct node *head){
 	struct node *chk=temp;
 	static int c;
 	while(temp->next!=NULL){
-		c++;
+		c++;              //Size of LL
 		temp=temp->next;
 	}
 	while(temp->next!=NULL){
